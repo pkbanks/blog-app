@@ -34,3 +34,14 @@ $navbar-default-bg: #08088A;
 	letter-spacing: -1px;
 	font-weight: bold;
 }
+
+.btn-xlarge{
+	font-size: 1.7em;
+	background-color: #000;
+	border-color: #000;
+}
+
+.btn-xlarge:hover{
+	background-color: $navbar-default-bg;
+	border: $navbar-default-bg;
+}
