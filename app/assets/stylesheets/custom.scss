@@ -1,4 +1,5 @@
-$navbar-default-bg: #08088A;
+//$navbar-default-bg: #08088A;
+$navbar-default-bg: #000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -41,7 +42,34 @@ $navbar-default-bg: #08088A;
 	border-color: #000;
 }
 
-.btn-xlarge:hover{
+/*.btn-xlarge:hover{
 	background-color: $navbar-default-bg;
 	border: $navbar-default-bg;
+}*/
+
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
 }
+
+footer a:hover{
+	color: #222;
+}
+
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
+
+footer ul li{
+	float:left;
+	margin-left: 15px;
+}
+
+
