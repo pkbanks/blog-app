@@ -52,7 +52,7 @@ class UsersController < ApplicationController
 
 	def require_same_user
 		# only owner of the account can edit/destroy their account
-		if current_user != @user
+		if current_user != @user and !current_user.admin?
 			flash[:danger] = "You can edit only your account."
 			redirect_to root_path
 		end
