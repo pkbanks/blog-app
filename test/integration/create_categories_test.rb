@@ -15,3 +15,4 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 			assert_match "sports", response.body		# 'sports' should be in the body
 		end
 end
+
