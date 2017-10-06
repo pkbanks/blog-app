@@ -20,12 +20,13 @@ class CategoriesController < ApplicationController
 	end
 
 	def show
+		# @category = Category.find(category_params)
 	end
 
 	private
 	
 	def category_params
-		params.require(:category).permit(:name)
+		params.require(:category).permit(:name, :id)
 	end
 end
 
