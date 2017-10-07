@@ -31,7 +31,3 @@ class CategoriesControllerTest < ActionController::TestCase
 	end
 	
 end
-
-
-
-
